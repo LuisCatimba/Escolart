@@ -16,6 +16,7 @@ import Message from '../../Componentes/Message';
 //Contex
 
 import { ContextTeacher } from '../../Context/ContextTeacher';
+import Loading from '../../Componentes/Loading';
 
 const MarcarAula = () => {
   const [cursos, setCursos] = useState([]);
@@ -231,7 +232,7 @@ const MarcarAula = () => {
           </form>
         </div>
       ) : (
-        <p>Aguarde...</p>
+        <Loading text="Carregando..." />
       )}
     </>
   );
