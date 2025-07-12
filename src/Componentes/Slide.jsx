@@ -12,6 +12,7 @@ import { useAuth } from '../Hooks/useAuth';
 import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
 
 const Slide = () => {
+  console.log(import.meta.env.BASE_URL);
   const Navigate = useNavigate();
   const sliderRef = useRef(null);
   const { user } = useAuth();
