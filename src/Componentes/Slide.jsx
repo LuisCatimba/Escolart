@@ -62,7 +62,9 @@ const Slide = () => {
         <div
           className={styles.image}
           style={{
-            backgroundImage: "url('/imagens/carousel-1.jpg')",
+            backgroundImage: `url(${
+              import.meta.env.BASE_URL
+            }imagens/carousel-1.jpg)`,
           }}
         >
           <div className={styles.overlay}>
@@ -81,7 +83,9 @@ const Slide = () => {
         <div
           className={styles.image}
           style={{
-            backgroundImage: "url('/imagens/carousel-2.jpg')",
+            backgroundImage: `url(${
+              import.meta.env.BASE_URL
+            }imagens/carousel-2.jpg)`,
           }}
         >
           <div className={styles.overlay}>
