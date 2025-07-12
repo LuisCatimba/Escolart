@@ -1,0 +1,60 @@
+.overSide {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+}
+
+.FormRegisterCursos {
+  background-color: #ffff;
+  padding: 25px;
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.FormRegisterCursos p {
+  color: #777272;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.FormRegisterCursos img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+
+.closeModal {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+
+.closeModal button {
+  font-size: 18px;
+  font-weight: 800;
+  color: #575252;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 720px) {
+  .FormRegisterCursos {
+    width: 50vw;
+  }
+}

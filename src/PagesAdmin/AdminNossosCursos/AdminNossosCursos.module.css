@@ -1,0 +1,31 @@
+.AdminNossosCursosConteiner {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 30px;
+  overflow-x: hidden;
+}
+
+.openModalToRegisterCourse {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  margin-top: 10px;
+}
+
+.openModalToRegisterCourse button {
+  padding: 10px 12px;
+  background-color: #06bbcc;
+  color: white;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: all ease 3s;
+}
+
+.openModalToRegisterCourse button:hover {
+  opacity: 0.8;
+}

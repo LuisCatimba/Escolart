@@ -1,0 +1,43 @@
+.openMenuLateral {
+  width: 100%;
+  height: 100vh;
+  max-width: 250px;
+  padding: 20px;
+  top: 0;
+  right: 0;
+  position: fixed;
+  background-color: #fff;
+  z-index: 9;
+  color: #52565b;
+  transform: translate(110%, 0);
+  transition: all 0.5s ease;
+  margin-top: 60px;
+}
+
+.activo {
+  transform: translate(0, 0);
+}
+
+.openMenuLateral button {
+  font-size: 24px;
+  font-weight: 600;
+  color: #52565b;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-left: 90%;
+  cursor: pointer;
+}
+
+ul li {
+  margin-top: 15px;
+}
+
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}

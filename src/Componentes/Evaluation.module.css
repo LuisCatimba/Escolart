@@ -1,0 +1,94 @@
+.evaluation {
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 40px;
+  justify-content: space-between;
+  border-bottom: 5px solid gold;
+}
+
+.evaluation:first-child {
+  margin-top: 10px;
+}
+
+.evaluation header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.infoAuthor {
+  width: auto;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.nameBio {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.infoAuthor img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.initialName {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #06bbcc;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating {
+  width: 120px;
+  height: 20px;
+  display: flex;
+  align-items: start;
+  justify-content: end;
+  gap: 5px;
+}
+
+.infoAuthor div p {
+  text-align: left;
+}
+
+.name {
+  font-size: 18px;
+  color: #06bbcc;
+}
+
+.bio {
+  color: #52565b;
+  font-size: 16px;
+}
+
+.textEvaluation p {
+  width: 90%;
+  font-size: 16px;
+  color: #52566b;
+  margin-bottom: 15px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  text-align: start;
+}
+
+@media screen and (max-width: 450px) {
+  .evaluation {
+    width: 90vw;
+  }
+}

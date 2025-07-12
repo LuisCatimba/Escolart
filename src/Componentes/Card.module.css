@@ -1,0 +1,50 @@
+.Card {
+  width: 300px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.Card img {
+  width: 100%;
+  height: 60%;
+}
+
+.Card h3 {
+  color: #06bbcc;
+}
+
+.Card p {
+  color: #52565b;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.Card div {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+}
+
+.Card button {
+  padding: 10px;
+  background-color: #06bbcc;
+  color: white;
+  outline: none;
+  border: none;
+  transition: all ease 0.3s;
+  cursor: pointer;
+}
+
+.btnCursos {
+  width: 80px;
+}
+
+.Card button:hover {
+  opacity: 0.8;
+}

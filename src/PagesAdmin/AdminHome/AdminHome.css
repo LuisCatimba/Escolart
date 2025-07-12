@@ -1,0 +1,13 @@
+.AdminHome {
+  width: 100%;
+  padding: 20px;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+  gap: 15px;
+}

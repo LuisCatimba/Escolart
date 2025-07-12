@@ -1,0 +1,15 @@
+.FormComentarios {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: end;
+  padding: 30px;
+}
+
+.FormComentarios form {
+  width: 300px;
+}
+
+.FormComentarios form button {
+  border-radius: 15px;
+}

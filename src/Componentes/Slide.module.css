@@ -1,0 +1,120 @@
+.conteinerSlide {
+  width: 100vw;
+  height: calc(100vh - 60px);
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  margin-top: 60px;
+}
+
+.sliderWidth {
+  width: 200vw;
+  height: 100%;
+  display: flex;
+  margin-left: 0px;
+  transition: all ease 0.5s;
+}
+
+.image {
+  width: 100vw;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.overlay div {
+  min-width: 50vw;
+  width: 70vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  gap: 20px;
+  margin: 0 60px;
+  padding: 60px;
+}
+
+.overlay div p {
+  color: #06bbcc;
+  font-size: 1.5em;
+}
+
+.overlay div h2 {
+  color: white;
+}
+
+.btn {
+  padding: 8px 10px;
+  width: 120px;
+  height: 40px;
+  background-color: #06bbcc;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  transition: all ease 0.3s;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.slidersControls {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+  margin-top: 40vh;
+}
+
+.slidersControls button {
+  background-color: transparent;
+  padding: 8px;
+  border: 2px solid white;
+  outline: none;
+  cursor: pointer;
+  margin: auto 0;
+  transition: all ease 0.3s;
+}
+
+@media screen and (max-width: 450px) {
+  .conteinerSlide {
+    height: auto;
+  }
+
+  .slidersControls {
+    margin-top: 20vh;
+  }
+
+  .slidersControls button {
+    padding: 2px;
+  }
+
+  .image {
+    height: 60vh;
+  }
+
+  .overlay div {
+    width: 100vw;
+    height: 100%;
+    justify-content: center;
+    align-items: start;
+    margin-top: 20px;
+    margin: auto;
+  }
+
+  .overlay div h1 {
+    font-size: 1.3em;
+  }
+}

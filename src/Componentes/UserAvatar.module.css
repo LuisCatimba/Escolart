@@ -1,0 +1,23 @@
+.ConteinerUserAvatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #06bbcc;
+  cursor: pointer;
+}
+
+.ConteinerUserAvatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.ConteinerUserAvatar div {
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}

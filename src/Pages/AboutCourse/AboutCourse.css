@@ -1,0 +1,167 @@
+.ConteinerAboutCourse {
+  min-width: 75vw;
+  min-height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+.DadosCursos {
+  display: flex;
+  width: inherit;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px 40px;
+  gap: 20px;
+}
+
+.DadosCursos img {
+  width: 60%;
+  height: 350px;
+}
+
+.DadosCursos section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.DadosCursos section h3 {
+  color: #06bbcc;
+}
+
+.aboutCourse {
+  padding: 10px 40px;
+  max-width: 500px;
+}
+
+.aboutCourse p {
+  white-space: pre-wrap;
+}
+
+.ConteinerAboutCourse button {
+  background-color: #06bbcc;
+  padding: 10px 24px;
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all ease 0.3s;
+  font-size: 16x;
+}
+
+.ConteinerAboutCourse button[disabled] {
+  cursor: not-allowed;
+  background-color: #52565b;
+}
+
+.ConteinerAboutCourse button:hover {
+  opacity: 0.8;
+}
+
+.avaliacoes {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+  gap: 210px;
+}
+
+.avaliacoes div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.avaliacoes .semAvaliacoes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 40px;
+  text-align: center;
+}
+
+.classificar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.estrelas {
+  margin: 0 auto;
+  width: 150px;
+  display: flex;
+  margin-bottom: -20px;
+}
+
+.classificar form {
+  padding: 10px;
+}
+
+.classificar form textarea {
+  width: 150%;
+  height: 100px;
+  outline: none;
+  border: none;
+  border: 1px solid #52565b;
+  padding: 10px 5px;
+  color: #52565b;
+}
+
+.ConteinerEvaluations {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.ConteinerEvaluations form {
+  width: 300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+
+.ConteinerEvaluations form textarea {
+  width: 280px;
+  height: 70px;
+  outline: none;
+  border: 1px solid #52565b;
+  padding: 10px;
+}
+
+.evaluations {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: wrap;
+}
+
+.evaluation section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 450px) {
+  .DadosCursos img {
+    width: 100%;
+    height: 250px;
+  }
+
+  .ConteinerEvaluations h3 {
+    margin-top: 30px;
+  }
+}

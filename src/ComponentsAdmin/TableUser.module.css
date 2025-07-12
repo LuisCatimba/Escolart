@@ -1,0 +1,65 @@
+.table {
+  width: 90%;
+  height: auto;
+  margin-top: 2em;
+  border-collapse: collapse;
+  color: #776f6f;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.table div {
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  padding: 5px;
+  gap: 4px;
+}
+
+.table div img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.table thead {
+  background-color: #ccc;
+  text-align: start;
+  color: #52565b;
+  font-size: 14px;
+}
+
+.table thead tr th,
+.table tr td {
+  text-align: start;
+  height: auto;
+  padding: 10px;
+}
+
+.table tr {
+  height: 50px;
+  border-top: 1px solid #f0e9e9;
+}
+
+.table tbody {
+  background-color: #ffff;
+}
+
+.table button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.status {
+  background-color: green;
+  text-align: center;
+  color: white;
+  width: 50px;
+  height: 20px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,50 @@
+.conteinerAdminTeacher {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.conteinerAdminTeacher .nenhumProfessor {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: auto;
+}
+
+.conteinerAdminTeacher .nenhumProfessor button {
+  background-color: #06bbcc;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  padding: 10px 12px;
+}
+
+.conteinerAdminTeacher .nenhumProfessor span {
+  font-size: 18px;
+  color: #ccc;
+}
+
+.openModal {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  padding-right: 30px;
+}
+.openModal button {
+  padding: 10px;
+  color: white;
+  background-color: #06bbcc;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}

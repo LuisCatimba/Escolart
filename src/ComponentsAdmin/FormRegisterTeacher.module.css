@@ -1,0 +1,48 @@
+.formRegisterTeacher {
+  width: 320px;
+  min-height: 700px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  z-index: 3;
+  margin: auto;
+  padding: 20px;
+}
+
+.overSide {
+  width: 100vw;
+  height: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  top: 0;
+  left: 0;
+}
+
+.formRegisterTeacher img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+
+.closeModal {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+
+.closeModal button {
+  font-size: 18px;
+  font-weight: 800;
+  color: #575252;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
