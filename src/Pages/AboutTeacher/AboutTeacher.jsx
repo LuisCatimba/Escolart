@@ -74,7 +74,7 @@ const AboutTeacher = () => {
           />
         </div>
       ) : (
-        <Loading text={`Buscando comentário sobre `} />
+        <Loading text="Carregando..." />
       )}
     </>
   );

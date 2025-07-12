@@ -296,7 +296,7 @@ const AboutCourse = () => {
           </div>
         </>
       ) : (
-        <Loading />
+        <Loading text="Carregando..." />
       )}
     </div>
   );
